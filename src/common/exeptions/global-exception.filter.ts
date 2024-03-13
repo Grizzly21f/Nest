@@ -6,8 +6,6 @@ import {
   HttpStatus,
   Logger,
 } from '@nestjs/common';
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { ErrorHttpStatusCode } from '@nestjs/common/utils/http-error-by-code.util';
 import { Request, Response } from 'express';
 
 @Catch()
